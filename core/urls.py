@@ -18,6 +18,6 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('task/' include('task.urls')),
+    path('book_of_bloodborne/', include('book_of_bloodborne.urls')),
     path('admin/', admin.site.urls),
 ]
