@@ -21,4 +21,3 @@ urlpatterns = [
     path('book_of_bloodborne/', include('book_of_bloodborne.urls')),
     path('admin/', admin.site.urls),
 ]
-# Referência de um game Soulslike
