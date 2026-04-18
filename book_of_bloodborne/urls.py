@@ -4,3 +4,4 @@ from . import views
 urlpatterns = [
     path('', views.index, name='index'),
 ]
+# Referência de um game Souls
